@@ -10,9 +10,8 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path='/' element={<Calendario />} />
         <Route path='/internal' element={<InternalPage />} />
-        <Route path='/calendario' element={<Calendario />} />
       </Routes>
     </BrowserRouter>
   )
