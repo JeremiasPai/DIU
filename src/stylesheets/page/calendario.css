@@ -1,0 +1,86 @@
+/* Estilo personalizado para el botón */
+.custom-button {
+    background-color: rgba(69, 72, 230, 0.295); /* Color de fondo gris */
+    border: 0px solid #ccc; /* Borde alrededor del botón */
+    padding: 49px 63px; /* Ajusta el relleno vertical según tus preferencias */
+    text-align: left; /* Alinea el texto a la izquierda */
+    height: 100%;
+    position: relative; /* Establece la posición relativa para el contenedor del botón */
+    bottom: 10px; /* Centra verticalmente el contenido en el botón */
+    right: 8px; /* Centra horizontalmente el contenido en el botón */
+}
+
+/* Estilo personalizado para el contenido del botón */
+.custom-text {
+    font-size: 12px; /* Ajusta el tamaño de fuente según tus preferencias */
+    position: absolute; /* Establece la posición absoluta para el contenido del botón */
+    top: 90%; /* Centra verticalmente el contenido en el botón */
+    left: 90%; /* Centra horizontalmente el contenido en el botón */
+    transform: translate(-50%, -50%); /* Centra el contenido en relación al centro del botón */
+}
+
+/* Estilo personalizado para las columnas */
+.custom-col {
+    border: 1px solid #ccc; /* Agrega un borde alrededor de las columnas */
+    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    margin: 10px 0; /* Ajusta el margen superior e inferior según tus preferencias */
+    width: 130px; /* Establece el ancho automático para que las columnas se ajusten al contenido */
+    height: 100px; /* Establece el ancho automático para que las columnas se ajusten al contenido */
+}
+
+  /* Estilo personalizado para las columnas */
+.custom-col {
+    border: 1px solid #ccc; /* Agrega un borde alrededor de las columnas */
+    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    margin: 10px 0; /* Ajusta el margen superior e inferior según tus preferencias */
+  }
+
+/* Estilo personalizado para el Container */
+.custom-cont {
+    width: 1000px; /* Establece el ancho automático para que las columnas se ajusten al contenido */
+    height: auto; /* Establece el ancho automático para que las columnas se ajusten al contenido */
+  }
+
+.border-cal {
+  border: 3px solid #ccc; /* Agrega un borde alrededor de las columnas */
+}
+
+.div-calendario {
+  width: 1000px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.div-info {
+  margin: 0px 0px; /* Ajusta el margen superior e inferior según tus preferencias */
+}
+
+.event-item {
+  margin-bottom: 20px; /* Ajusta el valor según el espacio que desees entre elementos */
+}
+
+/* Estilos personalizados para el recuadro azul */
+.blue-box {
+  border: 2px solid #007BFF; /* Borde azul de 2 píxeles */
+  padding: 5px; /* Relleno interior del recuadro */
+  text-align: center; /* Centra el contenido del recuadro */
+  background-color: #007BFF; /* Color de fondo azul */
+  color: white; /* Texto blanco */
+  border-radius: 5px; /* Bordes redondeados */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el número del día y "oct" */
+.day-number {
+  font-size: 24px; /* Tamaño del número del día */
+}
+
+.oct-text {
+  font-size: 14px; /* Tamaño del texto "oct" */
+}
+
+/* Estilo para resaltar el botón "presionado" */
+.custom-button.selected {
+  background-color: #2a77a3; /* Cambia el color de fondo cuando está seleccionado */
+  color: #fff; /* Cambia el color del texto cuando está seleccionado */
+}
