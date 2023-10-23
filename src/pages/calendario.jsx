@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar from '../components/nav_bar';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../stylesheets/page/calendario.css';
+import Sub from '../components/subscribe'
 
 const Calendar = () => {
   const daysInMonth = [...Array(31).keys()]; // Suponiendo un mes de 31 días
@@ -25,13 +26,13 @@ const Calendar = () => {
         nombre: 'Charla',
         hora: '10:00 AM',
         sede: 'Valparaíso',
-        masInformacion: 'https://ejemplo.com/masinfo1',
+        masInformacion: '/info1',
       },
       {
         nombre: 'Ensayo PAES',
         hora: '2:00 PM',
         sede: 'Valparaíso',
-        masInformacion: 'https://ejemplo.com/masinfo2',
+        masInformacion: '/info2',
       },
     ],
     2: [
@@ -39,19 +40,19 @@ const Calendar = () => {
         nombre: 'Seminario',
         hora: '11:30 AM',
         sede: 'San Joaquín',
-        masInformacion: 'https://ejemplo.com/masinfo3',
+        masInformacion: '/info3',
       },
       {
         nombre: 'Puertas Abiertas',
         hora: '2:00 PM',
         sede: 'Valparaíso',
-        masInformacion: 'https://ejemplo.com/masinfo2',
+        masInformacion: '/info4',
       },
       {
         nombre: 'Coloquios',
         hora: '3:00 PM',
         sede: 'Viña del Mar',
-        masInformacion: 'https://ejemplo.com/masinfo2',
+        masInformacion: '/info5',
       },
     ],
     3: [
@@ -59,13 +60,13 @@ const Calendar = () => {
         nombre: 'Talleres',
         hora: '3:00 PM',
         sede: 'Viña del Mar',
-        masInformacion: 'https://ejemplo.com/masinfo4',
+        masInformacion: '/info1',
       },
       {
         nombre: 'Convenciones',
         hora: '3:00 PM',
         sede: 'Vitacura',
-        masInformacion: 'https://ejemplo.com/masinfo4',
+        masInformacion: '/info1',
       },
     ],
     // Define más días y listas de eventos según tus necesidades
@@ -96,12 +97,13 @@ const Calendar = () => {
     }
     return null;
   };
-
+  //<h1 className="page__title">Tracker de eventos</h1>
   return (
     <div>
+      <NavBar />
       <div className="page">
-        <h1 className="page__title">Tracker de eventos</h1>
-        <NavBar />
+        
+        
         <div className="ms-5">
           <h1 className="ms-3">Calendario USM</h1>
         </div>
@@ -187,7 +189,9 @@ const Calendar = () => {
               </ul>
             )}
           </div>
+          <Sub/>
         </Col>
+        
       </Row>
     </div>
   );
