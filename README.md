@@ -32,7 +32,7 @@ Now you can open http://localhost:5050
 - Sample stylesheets were written using the [BEM](https://getbem.com/) structure
 
 ### Video
-- Link:
+- Link: [Video](https://youtu.be/nY_inw2B8c4)
 
 ### Los ejemplos utilizados no son 100% exactos
 
