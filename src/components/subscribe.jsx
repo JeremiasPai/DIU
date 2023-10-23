@@ -78,7 +78,6 @@ export const SubscribeForm = () => {
 
     const handleClose = (value) => {
         setOpen(false);
-        setSelectedValue(value);
     };
     return (
         <div>
