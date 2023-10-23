@@ -33,13 +33,13 @@ h1 {
   }
   
   .left-column {
-    flex: 0 0 50%; 
+    flex: 0 0 30%; 
     padding: 10px;
     box-sizing: border-box;
   }
   
   .right-column {
-    flex: 0 0 50%; 
+    flex: 0 0 70%; 
     padding: 10px;
     box-sizing: border-box;
   }
