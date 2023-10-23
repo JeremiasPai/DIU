@@ -36,7 +36,8 @@ Now you can open http://localhost:5050
 
 ### Los ejemplos utilizados no son 100% exactos
 
-Integrantes:
+### Integrantes:
+
 Cristobal Carreño Fuentealba 202073530-1
 
 Francisco Muñoz Pérez 202044507-9
