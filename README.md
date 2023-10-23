@@ -30,3 +30,8 @@ Now you can open http://localhost:5050
 
 ### About stylesheets
 - Sample stylesheets were written using the [BEM](https://getbem.com/) structure
+
+### Video
+- Link:
+
+### Los ejemplos utilizados no son 100% exactos
