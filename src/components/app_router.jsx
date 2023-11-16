@@ -9,7 +9,7 @@ import Info2 from '../pages/info2'
 import Info3 from '../pages/info3'
 import Info4 from '../pages/info4'
 import Info5 from '../pages/info5'
-
+import CalendarioP from '../pages/calendarioP'
 
 
 const AppRouter = () => {
@@ -24,6 +24,7 @@ const AppRouter = () => {
         <Route path='/info4' element={<Info4 />} />
         <Route path='/info5' element={<Info5 />} />
         <Route path='/calendario' element={<Calendario />} />
+        <Route path='/profesor' element={<CalendarioP />} />
       </Routes>
     </BrowserRouter>
   )
