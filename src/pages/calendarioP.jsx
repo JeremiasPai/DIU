@@ -227,20 +227,21 @@ const CalendarP = () => {
                     </div>
                   </li>
                 ))}
-              </ul>
+                <Button variant="contained" color="primary" onClick={handleOpenDialog}>
+                  Agregar Evento
+                </Button>
+
+                <CreateEvent
+                  open={openDialog}
+                  onClose={handleCloseDialog}
+                  onAddEvent={handleAddEvent}
+                  newEvent={newEvent}
+                  handleInputChange={handleInputChange}
+                />        
+                </ul>
             )}
           </div>
-          <Button variant="contained" color="primary" onClick={handleOpenDialog}>
-          Agregar Evento
-        </Button>
-
-        <CreateEvent
-          open={openDialog}
-          onClose={handleCloseDialog}
-          onAddEvent={handleAddEvent}
-          newEvent={newEvent}
-          handleInputChange={handleInputChange}
-        />
+          
         </Col>
       </Row>
     </div>
